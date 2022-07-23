@@ -7,12 +7,22 @@
   border-style: outset;
 }
     th, td {background-color: rgb(235, 242, 235);}
+    .redtable {
+  border: 1px solid red;
+  border-style: outset;
+}
+.javed {border: 1px solid cyan;
+}
+#table1 {
+  border: 1px solid red;
+  border-style: outset;
+}
     </style>
     <!-- Tabletag -->
 
 </head>
 <body>
-<table>
+<table class="redtable">
     <tr>
         <th>Sr.No.</th>
         <th>Name</th>
@@ -48,10 +58,10 @@
     table, th, td {
 border: 1px solid blue;
 border-collapse: collapse;
-}
+}                    
 </style> -->
 <!-- Colspan -->
-<table>
+<table class="javed">
     <tr>
         <th colspan="2">Name</th>
         <th>Age</th>
@@ -102,7 +112,7 @@ border-collapse: collapse;
 }
 </style> -->
 <!-- Rowspan -->
-<table>
+<table class="javed">
     <tr>
         <th rowspan="2">Name</th>
         <th>First Name</th>
@@ -157,7 +167,7 @@ border-collapse: collapse;
 }
 </style> -->
 <!-- Colspan & Rowspan -->
-<table>
+<table id="table1">
     <tr>
         <th colspan="7">Time Table</th>
         </tr>
